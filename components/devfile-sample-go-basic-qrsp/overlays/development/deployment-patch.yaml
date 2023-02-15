@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-qrsp
+  namespace: aronaldson-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2600646e793368669580ef3ab941c99193ab94b816db1733c4eae5d93a68a66c
+        name: my-go
+        resources: {}
+status: {}
