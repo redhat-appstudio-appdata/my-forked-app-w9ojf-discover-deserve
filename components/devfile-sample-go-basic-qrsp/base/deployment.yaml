@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-qrsp
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:11b88c0aa16a9f671a469d5e0912aa0ead331f12305f5ab33070ae128564c09d
+      - image: quay.io/redhat-appstudio/user-workload@sha256:a88f01ee24be56b540aadeb4f27811b4d78c5a1c0e57fb29acc9f5224fe12754
         name: my-go
         ports:
         - containerPort: 8081
